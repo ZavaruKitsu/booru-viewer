@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Nunito;
+    src: url("assets/fonts/Nunito/Nunito-Regular.ttf");
+}
+
+* {
+    font-family: Nunito, sans-serif;
+}
+
+* {
+    @apply scrollbar scrollbar-thin scrollbar-thumb-stone-300 scrollbar-thumb-rounded;
+}
+
+.sep {
+    @apply h-[1px] w-full bg-black my-4;
+}
+
+.settings-board-container {
+    @apply w-full rounded-lg border bg-transparent/5 p-2;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    @apply transition-opacity duration-200;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    @apply opacity-0;
+}
+
+.scale-enter-active,
+.scale-leave-active {
+    @apply transition-all duration-500 transform;
+}
+
+.scale-enter-from,
+.scale-leave-to {
+    @apply scale-0;
+}
+
+.size-small-enter-active,
+.size-small-leave-active {
+    @apply transition-all duration-500 transform;
+}
+
+.size-small-enter-from,
+.size-small-leave-to {
+    @apply scale-[20%];
+}
