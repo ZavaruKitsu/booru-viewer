@@ -1,10 +1,14 @@
-# Nuxt 3 Minimal Starter
+# Booru viewer
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+## Description
+
+Allows you to scroll through a list of images from imageboards.
+
+Engines supported:
+- Gelbooru v0.1.*
+- Gelbooru v0.2
 
 ## Setup
-
-Make sure to install the dependencies:
 
 ```bash
 # yarn
@@ -17,16 +21,6 @@ npm install
 pnpm install --shamefully-hoist
 ```
 
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
 Build the application for production:
 
 ```bash
@@ -38,5 +32,3 @@ Locally preview production build:
 ```bash
 npm run preview
 ```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
